@@ -4,7 +4,7 @@ html{
 }
 
 body{
-     font-family: "Mooli"; Courier, Helvetica, Arial, sans-serif;
+     font-family: "Mooli", Courier, Helvetica, Arial, sans-serif;
     font-size: 100%;
         color: hotpink;
      text-shadow: 2px 2px 2px purple;
@@ -19,14 +19,16 @@ h2{
     
 }
 img{
-    float: left;
-    resize: 50%;
 }
-p{
-    color:;
+table{
+    color: black;
+    text-align: center;
+}
+footer{
+    font-size: 100%;
+    text-align: center;
 }
 a {font-weight: bold;}
 a:link {color: #6019E5;}
 a:visited{ color:#1FEAEA;}
 a:hover, a:focus {color: deeppink;}
-
