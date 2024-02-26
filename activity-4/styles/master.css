@@ -7,6 +7,12 @@ header{
     color: coral;
     text-align: center;
 }
+h1{
+    font-size: 200%;
+    color: coral;
+
+    text-align: center;
+}
 img{
     height: 400px;
     margin: auto;

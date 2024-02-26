@@ -3,11 +3,8 @@ var salutation = "WELCOME ";
 var user = "Mr. Hunsicker and classmates";
 var greeting = salutation + user;
 var greetingEl= document.getElementById('greeting');
-window.onload = loaded;
-function loaded()
-{
-    alert( greeting)
-}
+greetingEl.textContent = greetingEl = greeting;
+
 var price = 159.99;
  var   studentDiscount = .20;
  var   studentPrice = price - ( price * studentDiscount);
