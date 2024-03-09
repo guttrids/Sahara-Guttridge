@@ -1,0 +1,42 @@
+body{
+    font-family: "Madimi One", sans-serif;
+    background-color: paleturquoise;
+}
+header{
+    font-size: 400%;
+    color: black;
+    text-align: center;
+}
+h1{
+    font-size: 100%;
+    color: black;
+
+    text-align: center;
+}
+img{  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+#image{
+    width: 75%;
+}
+#date
+{
+ font-size: 50%;
+}
+.package
+{
+    font-size: large;
+
+}
+main{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+}
