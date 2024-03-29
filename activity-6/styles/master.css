@@ -1,0 +1,36 @@
+body{
+    font-family: "Madimi One", sans-serif;
+    background-color: papayawhip;
+    max-width: 500px;
+    margin: 0 auto;
+    color: black;
+}
+h1{
+    font-size: 400%;
+    color: black;
+
+    text-align: center;
+}
+
+.messages
+{
+ margin-bottom: 20px;
+
+}
+.out-messages{
+    padding: 5px;
+    background-color: aquamarine;
+}
+.in-messages{
+    padding: 5px;
+    background-color: aquamarine;
+}
+.reponse{
+    
+        padding: 5px;
+        background-color: aquamarine;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
