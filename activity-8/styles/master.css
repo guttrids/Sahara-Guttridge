@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Oswald", sans-serif;
+    background-color: pink;
+
+    margin: 0;
+    color: black;
+}
+header{
+    display: flex;
+    padding: 10px;
+    color: brown;
+    background-color: beige;
+    border-bottom: solid 2px black;
+}
+
+header .header-menu
+{
+    flex-grow: 1;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: smaller;
+}
+header .header-title{
+    display: inline-block;
+}
+main{
+    flex: 1;
+}
+main #display-content{
+    padding: 20px;
+}
+#modal-backdrop{
+    display: none;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+}
+#modal-backdrop.visible{
+    display: block;
+}
+.modal{
+    display: none;
+    position: absolute;
+    padding: 10px;
+    border: double 2px green;
+    background-color: aliceblue;
+    z-index: 99999;
+    width: 300px;
+    height: 300px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.modal.visible{
+    display: block;
+}
+.modal-content{
+    width: 300px;
+    height: 300px;
+}
+#edit-title{
+    width: 300px;
+}
+#edit-content-text{
+    width: 100%;
+    box-sizing: border-box;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
