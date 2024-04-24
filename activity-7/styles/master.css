@@ -1,0 +1,44 @@
+body{
+    font-family: "Madimi One", sans-serif;
+    background-color: papayawhip;
+    max-width: 500px;
+    margin: 0 auto;
+    color: black;
+}
+h1{
+    font-size: 400%;
+    color: black;
+
+    text-align: center;
+}
+
+.messages
+{
+ margin-bottom: 20px;
+
+}
+img{
+    margin: left;
+    
+    height: 300px;
+}
+ul{
+    margin: 0;
+}
+li{
+    padding: 10px;
+}
+#todo-list-container{
+    margin-top: 30px;
+}
+#completed-list{
+    list-style-type: none;
+}
+#completed-list li{
+    text-decoration: line-through;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
